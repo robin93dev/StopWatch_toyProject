@@ -1,0 +1,55 @@
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  font-family: 'IBM Plex Sans', sans-serif;
+}
+.title {
+  padding-left: 78px;
+}
+h1 {
+  display: inline-block;
+  background-color: aquamarine;
+  border-radius: 5px;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background: #93bde7;
+}
+.wrapper {
+  width: 400px;
+  padding: 20px;
+  background: #fff;
+  box-shadow: 0 10px 20px rgb(64 64 64 / 5%);
+  border: 1px solid rgb(64 64 64 / 5%);
+  border-radius: 40px;
+}
+div#stopwatch {
+  font-size: 50px;
+  line-height: 60px;
+  text-align: center;
+  padding: 0 0 50px 0;
+}
+ul#buttons {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+ul#buttons button {
+  background: #0f62fe;
+  border: transparent;
+  width: 100px;
+  height: 50px;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  display: block;
+  padding: 10px 0 10px;
+  cursor: pointer;
+  border-radius:15px;
+}
